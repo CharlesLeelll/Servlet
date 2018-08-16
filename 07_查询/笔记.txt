@@ -1,0 +1,27 @@
+JSP与Servlet:
+JSP的实质就是Servlet,相对Servlet而言,没有新增任何Servlet不能实现的功能.
+
+Servlet是1个Java程序,方便实现程序业务处理
+JSP是1个页面,方便实现数据的显示
+
+
+
+EL表达式:
+EL表达式主要用于取出容器或URL地址等位置的数据[不能存入数据]
+
+${requestScope.变量名 } 获得request容器中,指定名称的数据
+${sessionScope.变量名 } ....
+${applicationScope.变量名 } ....
+
+编写位置: HTML标签或标签对之间,甚至作为属性或一部分
+
+
+
+<c:forEach>标签: [同forEach循环]
+<c:forEach items="数组或集合" var="变量名">
+循环体
+</c:forEach>
+
+for(变量名 : 数组或集合){
+
+}

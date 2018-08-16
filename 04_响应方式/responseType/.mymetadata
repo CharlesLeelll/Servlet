@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="responseType"
+  id="myeclipse.1521612485687"
+  context-root="/responseType"
+  j2ee-spec="5.0"
+  archive="responseType.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+
